@@ -1,10 +1,13 @@
 import "./App.css";
-import * as d3 from "d3";
+import LineDiagram from "./components/lineDiagram/LineDiagram";
+import ArcDiagram from "./components/arcDiagram/ArcDiagram";
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO D3 ARC DIAGRAM</h1>
+      <h1>HELLO D3 DIAGRAM</h1>
+      <LineDiagram />
+      <ArcDiagram />
     </div>
   );
 }
